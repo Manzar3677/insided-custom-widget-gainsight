@@ -114,7 +114,7 @@
       "widgetsLibrary": true,
       "type": "hello-widget",
       "source": {
-        "path": "widgets/hello-widget",
+        "path": "widgets/hello-widget/dist",
         "entry": "index.html"
       }
     }
