@@ -102,7 +102,7 @@
     "show_icons": "yes"
   },
   "source": {
-    "path": "widget/hello-widget",
+    "path": "widgets/hello-widget",
     "entry": "index.html"
   }
 }
