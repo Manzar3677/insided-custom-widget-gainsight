@@ -1,4 +1,4 @@
-# Insided Custom Widget
+# Insided Custom Widget Gainsight
 
 Example implementation of a custom widget based on the Insided widget schema.
 
