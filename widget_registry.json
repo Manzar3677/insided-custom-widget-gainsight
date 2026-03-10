@@ -1,7 +1,7 @@
 {
   "widgets": [
     {
-      "category": "hello-widget",
+      "category": "Hello Widget Group",
       "configuration": {
         "properties": [
           {
@@ -111,7 +111,7 @@
         "shared": false,
         "movable": false
       },
-      "title": "Hello msft",
+      "title": "Hello Widget",
       "version": "1.0.0",
       "widgetsLibrary": true,
       "type": "Hello-widget",
