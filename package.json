@@ -1,0 +1,14 @@
+{
+  "name": "insided-custom-widget-gainsight",
+  "version": "1.0.0",
+  "description": "Example custom widget using Insided widget schema",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "serve public",
+    "build": "echo build step"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+}
