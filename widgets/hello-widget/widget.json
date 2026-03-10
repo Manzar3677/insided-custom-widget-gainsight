@@ -1,0 +1,15 @@
+{
+  "name": "hello-widget",
+  "display_name": "Hello Widget",
+  "description": "Simple example widget for Gainsight",
+  "version": "1.0.0",
+  "component": "index.html",
+  "dimensions": {
+    "min_height": 1,
+    "max_height": 4,
+    "height": 2,
+    "min_width": 1,
+    "max_width": 4,
+    "width": 2
+  }
+}
