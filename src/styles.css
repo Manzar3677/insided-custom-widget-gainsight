@@ -1,0 +1,16 @@
+.custom-widget {
+  border: 1px solid #ddd;
+  padding: 16px;
+  background: #fff;
+  border-radius: 6px;
+}
+
+.custom-widget h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.custom-widget iframe {
+  margin-top: 10px;
+  border-radius: 4px;
+}
