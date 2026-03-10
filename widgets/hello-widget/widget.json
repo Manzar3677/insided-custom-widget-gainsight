@@ -1,8 +1,8 @@
 {
+  "name": "hello-widget",
   "version": "1.0.0",
   "title": "Hello Widget",
   "description": "A configurable card grid widget demonstrating dynamic layout and styling options",
-  "name": "hello-widget",
   "configuration": {
     "properties": [
       {
@@ -10,11 +10,7 @@
         "type": "number",
         "label": "Cards Per Row",
         "defaultValue": 3,
-        "rules": {
-          "required": true,
-          "minimum": 1,
-          "maximum": 6
-        }
+        "rules": { "required": true, "minimum": 1, "maximum": 6 }
       },
       {
         "name": "card_background",
@@ -40,18 +36,9 @@
         "label": "Title Size",
         "defaultValue": "medium",
         "options": [
-          {
-            "value": "small",
-            "label": "Small"
-          },
-          {
-            "value": "medium",
-            "label": "Medium"
-          },
-          {
-            "value": "large",
-            "label": "Large"
-          }
+          { "value": "small", "label": "Small" },
+          { "value": "medium", "label": "Medium" },
+          { "value": "large", "label": "Large" }
         ]
       },
       {
@@ -60,18 +47,9 @@
         "label": "Card Style",
         "defaultValue": "shadow",
         "options": [
-          {
-            "value": "flat",
-            "label": "Flat"
-          },
-          {
-            "value": "shadow",
-            "label": "Shadow"
-          },
-          {
-            "value": "bordered",
-            "label": "Bordered"
-          }
+          { "value": "flat", "label": "Flat" },
+          { "value": "shadow", "label": "Shadow" },
+          { "value": "bordered", "label": "Bordered" }
         ]
       },
       {
@@ -80,14 +58,8 @@
         "label": "Show Icons",
         "defaultValue": "yes",
         "options": [
-          {
-            "value": "yes",
-            "label": "Yes"
-          },
-          {
-            "value": "no",
-            "label": "No"
-          }
+          { "value": "yes", "label": "Yes" },
+          { "value": "no", "label": "No" }
         ]
       }
     ]
@@ -106,4 +78,3 @@
     "entry": "index.html"
   }
 }
- 
