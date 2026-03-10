@@ -3,7 +3,6 @@
   "title": "Hello Widget",
   "description": "A configurable card grid widget demonstrating dynamic layout and styling options",
   "category": "hello-widget",
-  "imageSrc": "thumbnail.png",
   "configuration": {
     "properties": [
       {
