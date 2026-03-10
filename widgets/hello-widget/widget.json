@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "title": "Hello Widget",
   "description": "A configurable card grid widget demonstrating dynamic layout and styling options",
-  "category": "hello-widget",
+  "name": "hello-widget",
   "configuration": {
     "properties": [
       {
