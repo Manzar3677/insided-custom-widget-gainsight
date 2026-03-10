@@ -1,7 +1,7 @@
 {
   "widgets": [
     {
-      "category": "hello-widget",
+      "name": "hello-widget",
       "configuration": {
         "properties": [
           {
