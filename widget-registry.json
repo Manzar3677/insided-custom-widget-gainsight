@@ -111,10 +111,10 @@
         "shared": false,
         "movable": false
       },
-      "title": "Card Grid",
+      "title": "hello widget",
       "version": "1.0.0",
       "widgetsLibrary": true,
-      "type": "card_grid",
+      "type": "hello-widget",
       "source": {
         "path": "widgets/hello-widget",
         "entry": "index.html"
