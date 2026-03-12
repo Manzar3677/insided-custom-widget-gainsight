@@ -16,12 +16,8 @@ initWidget();
     const sdk = new window.WidgetServiceSDK();
 
     const result = await sdk.connectors.execute({
-      permalink: "users-location",
-      method: "GET",
-      params: {
-      appId: "D41D8CD98F00B204E9800998ECF8427E1FBE79C2",
-        q: "Hyderabad"
-      }
+      permalink: "users-location?appId=D41D8CD98F00B204E9800998ECF8427E1FBE79C2&q=Hyderabad",
+      method: "GET"
     });
 
     console.log(result);
