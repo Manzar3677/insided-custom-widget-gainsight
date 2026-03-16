@@ -25,6 +25,12 @@ initWidget();
     });
 
     console.log(result);
+    const createArticles = await sdk.connectors.execute({
+      permalink: "create-articles",
+      method: "POST"
+    });
+
+    console.log("createArticles:",createArticles);
   })();
 
 
