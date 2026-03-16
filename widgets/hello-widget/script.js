@@ -28,14 +28,3 @@ initWidget();
   })();
 
 
-  (async () => {
-    const sdk = new window.WidgetServiceSDK();
-
-    const result = await sdk.connectors.execute({
-      permalink: "create-articles",
-      method: "POST"
-    });
-
-    console.log(result);
-  })();
-
